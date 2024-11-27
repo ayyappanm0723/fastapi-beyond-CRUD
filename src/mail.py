@@ -18,6 +18,7 @@ mail_config = ConnectionConfig(
     VALIDATE_CERTS=True,
     # TEMPLATE_FOLDER=Path(BASE_DIR, "templates"),
 )
+# testing
 
 
 mail = FastMail(config=mail_config)
